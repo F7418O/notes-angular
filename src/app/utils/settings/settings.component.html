@@ -1,0 +1,10 @@
+<div *ngIf="darkMode">
+    <div class="switch on">
+        <button class="circle" (click)="handleMode()"></button>
+    </div>
+</div>
+<div *ngIf="!darkMode">
+    <div class="switch">
+        <button class="circle" (click)="handleMode()"></button>
+    </div>
+</div>

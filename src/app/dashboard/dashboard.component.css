@@ -1,0 +1,18 @@
+/* .Dashboard{
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+} */
+.Dashboard{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+.notes-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 100%;
+  gap: 10px;
+}

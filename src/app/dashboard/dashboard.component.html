@@ -1,0 +1,7 @@
+<div class="Dashboard">
+  <div class="notes-container">
+   <app-createnote></app-createnote>
+   <app-note *ngFor="let n of notes" [note]="n">
+   </app-note>
+  </div>
+</div>
